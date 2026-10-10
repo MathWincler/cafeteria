@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Folha & Grão — Café Botânico (site demonstrativo)</title>
+<meta name="description" content="Site conceitual de cafeteria — modelo demonstrativo de portfólio.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 10'%3E%3Ctext y='8' font-size='8'%3E🍃%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Jost:wght@300;400;500&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<symbol id="lg" viewBox="0 0 32 32"><path d="M16 3c7 4 10 11 6 18-3 5-9 7-13 5 0-8 2-17 7-23z" fill="currentColor" opacity=".9"/><path d="M16 8c-2 6-3 12-3 18" stroke="#FAF6EE" stroke-width="1.4" fill="none" opacity=".7"/></symbol>
+<symbol id="cup" viewBox="0 0 100 100"><path d="M22 44h50v14c0 14-10 24-25 24S22 72 22 58z" fill="#FAF6EE" opacity=".92"/><path d="M72 50h6c8 0 8 14 0 14h-8" fill="none" stroke="#FAF6EE" stroke-width="5" opacity=".92"/><ellipse cx="47" cy="44" rx="25" ry="5" fill="#5B3A29"/><path d="M38 34c-4-6 4-8 0-14M50 34c-4-6 4-8 0-14M62 34c-4-6 4-8 0-14" stroke="#FAF6EE" stroke-width="2.5" fill="none" stroke-linecap="round" opacity=".7"/></symbol>
+</svg>
+
+<header id="top">
+<div class="wrap">
+<a class="logo" href="#home" aria-label="Folha & Grão — início"><svg aria-hidden="true"><use href="#lg"/></svg>Folha &amp; Grão</a>
+<button class="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
+<nav id="nav" aria-label="Principal"><ul>
+<li><a href="#home">Home</a></li><li><a href="#cardapio">Cardápio</a></li><li><a href="#sobre">Sobre</a></li><li><a href="#tarde">Sua tarde</a></li><li><a href="#visite">Visite</a></li><li><a href="#faq">FAQ</a></li>
+</ul></nav>
+</div>
+</header>
+
+<main>
+<section id="home" aria-label="Apresentação">
+<div class="slide on" role="img" aria-label="Xícara de café artesanal sobre mesa de madeira"><div class="ph" style="position:absolute;inset:0;--c1:#b08968;--c2:#4d3324"><svg aria-hidden="true"><use href="#cup"/></svg></div></div>
+<div class="slide" role="img" aria-label="Ambiente aconchegante com luz natural da janela"><div class="ph" style="position:absolute;inset:0;--c1:#d9c3a0;--c2:#7a5a3e"><svg aria-hidden="true"><use href="#cup"/></svg></div></div>
+<div class="slide" role="img" aria-label="Barista preparando um café"><div class="ph" style="position:absolute;inset:0;--c1:#8f8a62;--c2:#3b2f25"><svg aria-hidden="true"><use href="#cup"/></svg></div></div>
+<div class="slide" role="img" aria-label="Doces artesanais e flores sobre a mesa"><div class="ph" style="position:absolute;inset:0;--c1:#cfa98a;--c2:#6b4631"><svg aria-hidden="true"><use href="#cup"/></svg></div></div>
+<div class="hero-txt">
+<h1>Um lugar para desacelerar.<br><em>Um café para sentir.</em></h1>
+<p>Na Folha &amp; Grão, grãos selecionados, fornadas do dia e uma casa cercada de verde convidam você a ficar um pouco mais.</p>
+<a class="btn light" href="#cardapio">Conheça nosso cardápio</a>
+</div>
+<div class="ctrl"><button id="hp" aria-label="Slide anterior">‹</button><div class="dots" id="dots"></div><button id="hn" aria-label="Próximo slide">›</button></div>
+<a class="scroll" href="#sobre">Role</a>
+</section>
+
+<section id="sobre">
+<svg class="leaf" viewBox="0 0 32 32" aria-hidden="true"><use href="#lg"/></svg>
+<div class="wrap sobre-grid">
+<div class="rv">
+<span class="eyebrow">Nossa essência</span>
+<h2>Café é o pretexto.<br>O tempo é o presente.</h2>
+<p>A Folha &amp; Grão nasceu em 2016, de uma varanda cheia de samambaias e de uma torra feita em pequenos lotes. O que começou como mesa de amigos virou casa aberta: pouca pressa, boa luz e uma xícara preparada com atenção.</p>
+<p>Acreditamos que um café bem feito é um gesto de hospitalidade.</p>
+<div class="valores">
+<div><h3>Qualidade</h3><p>Grãos de pequenos produtores, torrados toda semana.</p></div>
+<div><h3>Cuidado artesanal</h3><p>Massas, caldas e geleias feitas na casa.</p></div>
+<div><h3>Hospitalidade</h3><p>Você é recebido pelo nome, sem relógio.</p></div>
+<div><h3>Natureza</h3><p>Plantas, madeira e luz natural em cada canto.</p></div>
+</div>
+</div>
+<div class="ph rv" role="img" aria-label="Detalhe do espaço com xícara, plantas e luz natural" style="--c1:#c9b08f;--c2:#6f5238"><svg aria-hidden="true"><use href="#cup"/></svg></div>
+</div>
+</section>
+
+<section id="tarde">
+<div class="wrap tarde">
+<div class="rv">
+<span class="eyebrow">Sua tarde, do seu jeito</span>
+<h2>O lugar ideal para passar a tarde</h2>
+<p>Aqui ninguém olha o relógio. Escolha uma mesa, peça o que quiser e fique o tempo que precisar: a casa é sua enquanto o café esfria, e a gente enche a xícara de novo.</p>
+<p>Wi-Fi gratuito, tomadas junto às mesas da janela e música baixa para qualquer plano.</p>
+</div>
+<ul class="acts rv">
+<li><h3>Estudar</h3><p>Mesas longas, boa luz e silêncio na medida certa para a prova de amanhã.</p></li>
+<li><h3>Trabalhar</h3><p>Notebook, Wi-Fi e um espresso na mão. Seu escritório com cheiro de pão quente.</p></li>
+<li><h3>Conversar</h3><p>Poltronas e mesas redondas para um papo que começa curto e termina no pôr do sol.</p></li>
+<li><h3>Ler</h3><p>Um canto com estante, almofadas e uma torta de maçã ao lado do livro.</p></li>
+<li><h3>Descansar</h3><p>Ou simplesmente não fazer nada, olhando o jardim pela janela.</p></li>
+</ul>
+<a class="btn tbtn" href="#visite">Reserve sua mesa</a>
+</div>
+</section>
+
+<section id="destaque">
+<div class="wrap dest">
+<div class="ph rv" role="img" aria-label="Croissant de amêndoas dourado" style="--c1:#d8a867;--c2:#7b4a26"><svg aria-hidden="true"><use href="#cup"/></svg></div>
+<div class="card rv">
+<span class="selo">Favorito da casa</span>
+<h2>Croissant de amêndoas e mel</h2>
+<p>Massa folhada de manteiga, recheada com creme de amêndoas e finalizada com mel de laranjeira e lascas tostadas. Crocante por fora, macio por dentro, ótimo ao lado de um espresso.</p>
+<span class="preco">R$ 18,00</span>
+<a class="btn" href="#cardapio">Ver cardápio completo</a>
+</div>
+</div>
+</section>
+
+<section id="cardapio">
+<div class="wrap head rv">
+<div><span class="eyebrow">Especialidades da casa</span><h2>Do grão ao forno</h2><p>Uma seleção curta, feita com calma e ingredientes que gostamos de conhecer pelo nome.</p></div>
+<div class="arrows"><button id="pv" aria-label="Anterior">←</button><button id="nx" aria-label="Próximo">→</button></div>
+</div>
+<div id="track" tabindex="0" aria-label="Itens do cardápio, deslize para ver mais"></div>
+</section>
+
+<section id="depo">
+<div class="wrap">
+<span class="eyebrow">Quem passou por aqui</span>
+<h2>Palavras à mesa</h2>
+<div class="quotes">
+<blockquote class="rv"><span class="stars" aria-label="5 estrelas">★★★★★</span><p>O melhor cappuccino que já tomei. Cheguei para um café e fiquei a tarde toda.</p><cite>— Marina S.</cite></blockquote>
+<blockquote class="rv"><span class="stars" aria-label="5 estrelas">★★★★★</span><p>O croissant sai quente e o atendimento é de casa de amigo. Voltarei sempre.</p><cite>— Rafael T.</cite></blockquote>
+<blockquote class="rv"><span class="stars" aria-label="4 estrelas">★★★★☆</span><p>Silêncio bom, boa luz, ótima torta de maçã. Perfeito para ler.</p><cite>— Helena M.</cite></blockquote>
+</div>
+<p class="note">Depoimentos fictícios, apenas para demonstração do layout.</p>
+</div>
+</section>
+
+<section id="visite">
+<div class="wrap visite">
+<div class="rv">
+<span class="eyebrow">Visite</span>
+<h2>A porta está aberta</h2>
+<p>Estamos num sobrado de esquina, com jardim na frente e mesas junto à janela.</p>
+<dl>
+<dt>Endereço (ilustrativo)</dt><dd>Rua das Oliveiras, 123 — Bairro Jardim, Cidade Exemplo</dd>
+<dt>Horários</dt><dd>Ter a sex: 8h–19h · Sáb e dom: 9h–20h · Seg: fechado</dd>
+<dt>Contato (fictício)</dt><dd>(00) 0000-0000 · contato@exemplo.com</dd>
+</dl>
+</div>
+<div class="map rv" role="img" aria-label="Mapa ilustrativo com marcador demonstrativo">
+<svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice"><rect width="400" height="300" fill="#EADFCB"/><path d="M0 90h400M0 210h400M120 0v300M290 0v300M0 150l400-40" stroke="#FAF6EE" stroke-width="14" fill="none"/><rect x="140" y="20" width="130" height="60" fill="#c8c9a3" opacity=".7" rx="6"/><path d="M205 118c-14 0-22 10-22 22 0 16 22 38 22 38s22-22 22-38c0-12-8-22-22-22z" fill="#5B3A29"/><circle cx="205" cy="140" r="7" fill="#FAF6EE"/></svg>
+<span>Marcador demonstrativo</span>
+</div>
+</div>
+</section>
+
+<section id="faq">
+<div class="wrap">
+<div style="text-align:center"><span class="eyebrow">Dúvidas</span><h2>Perguntas frequentes</h2></div>
+<div class="faq rv">
+<details><summary>Qual é o horário de funcionamento?</summary><p>De terça a sexta, das 8h às 19h; sábados e domingos, das 9h às 20h. Fechamos às segundas.</p></details>
+<details><summary>Há opções vegetarianas?</summary><p>Sim. Boa parte do cardápio é vegetariana e sinalizamos as opções veganas.</p></details>
+<details><summary>É possível reservar uma mesa?</summary><p>Aceitamos reservas para grupos de 4 ou mais, por telefone ou Instagram.</p></details>
+<details><summary>Vocês têm opções sem lactose?</summary><p>Oferecemos bebida vegetal de aveia e amêndoas, e alguns doces sem lactose.</p></details>
+<details><summary>Há Wi-Fi?</summary><p>Sim, gratuito. Pedimos só que, nos fins de semana, use o notebook com moderação.</p></details>
+<details><summary>Posso pedir para viagem?</summary><p>Claro. Todos os itens podem ser embalados para levar, em copos e caixas compostáveis.</p></details>
+</div>
+</div>
+</section>
+
+<section id="cta">
+<div class="wrap rv">
+<h2>Venha nos visitar!</h2>
+<p>Reserve um tempo para você. Guardamos a mesa da janela e o café ainda quente.</p>
+<a class="btn light" href="#visite">Veja nossa localização</a>
+</div>
+</section>
+</main>
+
+<footer>
+<div class="wrap">
+<div class="fgrid">
+<div><a class="logo" href="#home"><svg aria-hidden="true"><use href="#lg"/></svg>Folha &amp; Grão</a><p style="margin-top:14px;max-width:280px">Café feito com calma, servido com carinho.</p></div>
+<div><h3>Navegue</h3><ul><li><a href="#home">Home</a></li><li><a href="#cardapio">Cardápio</a></li><li><a href="#sobre">Sobre</a></li><li><a href="#visite">Visite</a></li><li><a href="#faq">FAQ</a></li></ul></div>
+<div><h3>Contato (fictício)</h3><ul><li>(00) 0000-0000</li><li>contato@exemplo.com</li><li>Rua das Oliveiras, 123 (ilustrativo)</li><li><a href="#top" aria-label="Instagram demonstrativo">@folhaegrao (demo)</a></li></ul></div>
+<div><h3>Horários</h3><ul><li>Ter–sex: 8h–19h</li><li>Sáb–dom: 9h–20h</li><li>Seg: fechado</li></ul></div>
+</div>
+<a class="biglogo" href="#home" aria-label="Folha & Grão — voltar ao topo"><svg aria-hidden="true"><use href="#lg"/></svg>Folha &amp; Grão</a>
+<div class="copy">© <span id="yr"></span> Folha &amp; Grão. Site conceitual de portfólio: marca, dados e depoimentos são fictícios.</div>
+</div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
